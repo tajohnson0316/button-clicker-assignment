@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* util classes */
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.card {
+    border: 3px solid black;
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.definitions {
+    flex: 2;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.btn {
+    padding: .5rem 1.5rem;
+    box-shadow: 3px 3px black;
+}
+
+input {
+    width: 45%;
+    padding: .5rem 0;
+    border: 3px solid black;
+}
+
+/* nav classes */
+nav {
+    padding: 1.5rem;
+    background-color: #c1c1c1;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.btn-login {
+    background-color: #2b78e4;
+    font-size: 1rem;
+    color: white;
+}
+
+/* main classes */
+main {
+    margin-top: 2rem;
+}
+
+/* descriptor classes */
+.descriptor {
+    align-self: flex-start;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.btn-likes {
+    margin-top: 1.5rem;
+    background-color: #ffd966;
+    font-size: 1.5rem;
+}
+
+/* definition classes */
+.definition {
+    font-size: 1.5rem;
+    flex: 1;
+}
+
+/* aside classes */
+.aside {
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.aside span {
+    font-weight: bolder;
+}
+
+.btn-add {
+    margin-top: 1.5rem;
+    background-color: #93c47d;
+    font-size: 1.5rem;
+    width: 100%;
+}
